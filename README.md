@@ -16,7 +16,7 @@ This project is using Polymer Infrastructure to bridge between OP Sepolia and Ba
 1. Contract install, compile, deploy
 ```
 just install
-npx hardhat compile
+just compile
 just deploy optimism base
 ```
 2. Copy the result of contract deployed(port address) or go to /config/config.json copy sendUniversalPacket.optimism.portAddr and sendUniversalPacket.base.portAddr
