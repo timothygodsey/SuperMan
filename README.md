@@ -20,12 +20,12 @@ npx hardhat compile
 just deploy optimism base
 ```
 2. Copy the result of contract deployed(port address) or go to /config/config.json copy sendUniversalPacket.optimism.portAddr and sendUniversalPacket.base.portAddr
-3. Go to /ibc-token-bridge/src/App.vue replace `OP_PORT_ADDRESS` and `BASE_PORT_ADDRESS` with port address from step 2
+3. Go to /SuperMan-frontend/src/App.vue replace `OP_PORT_ADDRESS` and `BASE_PORT_ADDRESS` with port address from step 2
 4. Go to /artifacts/contracts/IBCToken.sol/IBCToken.json file to copy ABI
-5. Go to /ibc-token-bridge/src/abi.js replace `CONTRACT_ABI` with ABI from setp 4
+5. Go to /SuperMan-frontend/src/abi.js replace `CONTRACT_ABI` with ABI from setp 4
 6. Frontend install, start
 ```
-cd ibc-token-bridge
+cd SuperMan-frontend
 npm i
 npm run serve
 ```
